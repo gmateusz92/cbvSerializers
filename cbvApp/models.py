@@ -5,5 +5,8 @@ class Student(models.Model):
     name = models.CharField(max_length=20)
     score = models.DecimalField(max_digits=10, decimal_places=3)
 
+    # def __str__(self):
+    #     return self.id + self.name + self.score
+
     def __str__(self):
-        return self.id + self.name + self.score
+        return str(self.id) + ' ' + self.name + ' ' + str(self.score)

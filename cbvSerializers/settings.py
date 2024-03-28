@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'cbvSerializers.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', 
-        'NAME': 'studentdb',
+        'NAME': 'cbv',
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost',
